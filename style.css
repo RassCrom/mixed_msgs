@@ -1,0 +1,99 @@
+@font-face {
+    font-family: naruto;
+    src: url(./ninja_naruto/njnaruto.ttf);
+}
+
+/* Global */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    transition: .2s ease all;
+}
+
+html{
+    font-size: 16px;
+    color: black;
+    font-family: naruto;
+    height: 100vh;
+    overflow: hidden;
+    width: 100%;
+}
+
+body {
+    
+    background: url(./resources/img/bg-1.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-size: 4.5rem;
+    background: -webkit-linear-gradient(#fcba21, #f05321);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 8rem auto 0;
+}
+
+#text {
+    margin:0 auto 6rem;
+    height: 140px;
+    width: 100%;
+    text-align: center;
+    color: #024DA1;
+    padding: 70px 0;
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(5px);
+}
+
+.button-52 {
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-52:after {
+  content: "";
+  background-color: #ffe54c;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.button-52:hover:after {
+  top: 0px;
+  left: 0px;
+}
+
+@media (min-width: 768px) {
+  .button-52 {
+    padding: 13px 50px 13px;
+  }
+}
