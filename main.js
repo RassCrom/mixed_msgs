@@ -5,7 +5,7 @@ let random = arr => {
     return Math.floor(Math.random() * arr.length)
 }
 
-let link = './resoucre/img/'
+let link = './resources/img/'
 let sakura = link + 'sakura.jpg';
 let obito = link + 'obito.webp';
 let naruto = link + 'bg-1.webp';
@@ -75,7 +75,7 @@ const taskGenerator = () => {
   let str2 = rndmPhrase[rnd].phrase
   let str3 = rndmPhrase[rnd].bg
   text.innerHTML = str1 + '. - ' + str2
-  document.body.style.backgroundImage = `url(./resoucres/img/sakura.jpg)`
+  document.body.style.backgroundImage = `url(${str3})`
 }
 
 btn.addEventListener('click', function() {
