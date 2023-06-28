@@ -1,4 +1,5 @@
 # mixed_msgs
+https://rasscrom.github.io/mixed_msgs/
 The provided code is an HTML document that creates a webpage displaying random quotes from the popular anime series Naruto. This code can be used as a simple example to showcase the implementation of a quote generator using HTML, CSS, and JavaScript.
 
 When you open the webpage, you will see a heading that says "Quotes from anime Naruto." Below the heading, there is a text container where the quotes will be displayed. Initially, the background image is set to a picture from the Naruto series.
